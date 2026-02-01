@@ -1,4 +1,4 @@
-# CSV Data Ingestion - Technical Assessment
+# CSV Data Ingestion
 
 ## Overview
  Your task is to implement a CSV data parser that processes **large datasets efficiently** (10,000+ rows) and transforms them for MongoDB ingestion. This project includes a streaming parser, validation, transformation, and optional MongoDB insertion.
