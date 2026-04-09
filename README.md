@@ -33,7 +33,7 @@ You've been provided with a CSV file containing 10,000+ product records. Your go
 
 ## What You Need to Implement
 
-### 1. Logger (`src/logger.ts`) - 10 minutes
+### 1. Logger (`src/logger.ts`) 
 **Simple structured logging for observability:**
 - `info(message, context)` - Log progress updates
 - `error(message, context)` - Log errors
@@ -42,7 +42,7 @@ You've been provided with a CSV file containing 10,000+ product records. Your go
 
 **That's it.** No fancy log levels or complex features. Keep it lean for performance.
 
-### 2. Validator (`src/validator.ts`) - 15-20 minutes
+### 2. Validator (`src/validator.ts`)
 **Core validation only - speed matters:**
 - Required fields: `product_id`, `name`, `category`, `price`, `stock_quantity`
 - `price` must be positive number
@@ -52,7 +52,7 @@ You've been provided with a CSV file containing 10,000+ product records. Your go
 
 Return validation errors per row, keep it fast since this runs on every row.
 
-### 3. Transformer (`src/transformer.ts`) - 15-20 minutes
+### 3. Transformer (`src/transformer.ts`)
 **Essential conversions for MongoDB:**
 - Convert snake_case → camelCase
 - Parse numbers: `price`, `stockQuantity`, `weight`
@@ -63,7 +63,7 @@ Return validation errors per row, keep it fast since this runs on every row.
 
 Keep transformations lightweight - this runs on every valid row.
 
-### 4. Parser (`src/parser.ts`) - 30-40 minutes
+### 4. Parser (`src/parser.ts`) 
 **CSV processing - the core of this assessment:**
 
 Key requirements:
